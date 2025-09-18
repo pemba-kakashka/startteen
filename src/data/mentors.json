@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "name": "Анна Смирнова",
+    "role": "Product Manager",
+    "company": "Яндекс",
+    "bio": "Опыт запуска продуктов с нуля. Помогаю с MVP и продуктовой стратегией.",
+    "expertise": ["Product Management", "MVP", "UX/UI", "Аналитика"],
+    "avatar": "/placeholder-avatar-1.jpg",
+    "linkedin": "https://linkedin.com/in/anna-smirnova",
+    "telegram": "@anna_pm"
+  },
+  {
+    "id": 2,
+    "name": "Дмитрий Козлов",
+    "role": "Tech Lead",
+    "company": "Сбер",
+    "bio": "Fullstack разработчик с опытом создания MVP. Специализируюсь на веб-технологиях.",
+    "expertise": ["React", "Node.js", "MVP Development", "Архитектура"],
+    "avatar": "/placeholder-avatar-2.jpg",
+    "linkedin": "https://linkedin.com/in/dmitry-kozlov",
+    "telegram": "@dmitry_dev"
+  }
+]
