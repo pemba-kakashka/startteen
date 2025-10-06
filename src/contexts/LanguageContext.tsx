@@ -337,7 +337,7 @@ const translations = {
     'about.whyUsText': 'Our team consists of successful entrepreneurs and experts who have gone from idea to implementation.',
     'about.howToParticipate': 'How to Participate?',
     'about.howToParticipateText': 'Fill out a simple form in the "Apply" section, the main thing is to describe your idea in detail! You can read how to do this on the "Documents" page!',
-    'about.thanks': 'Acknowledgments',
+    'about.thanks': 'Thanks for supporting young creators! Together we are building a community of future leaders and entrepreneurs.',
 
     // Docs page
     'docs.title': 'Documents',
