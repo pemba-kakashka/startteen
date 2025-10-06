@@ -57,17 +57,26 @@ export function Header() {
             onClick={() => setLanguage(language === 'ru' ? 'en' : 'ru')}
           >
             <Globe className="w-4 h-4 mr-1" />
-            {language === 'ru' ? 'EN' : 'RU'}
-          </Button>
-          <Button variant="ghost" size="sm" asChild>
-            <a href="https://forms.yandex.ru/u/68b323e6f47e731ccb27d32d" target="_blank" rel="noopener noreferrer">
-              {t('nav.becomeMentor')}
-            </a>
-          </Button>
-          <Button variant="default" size="sm" asChild>
-            <Link to="/apply">{t('nav.apply')}</Link>
-          </Button>
-        </div>
+           {language === 'ru' ? 'EN' : 'RU'}
+</Button>
+
+<Button variant="ghost" size="sm" asChild>
+  <a
+    href={
+      language === 'ru'
+        ? 'https://forms.yandex.ru/u/68b323e6f47e731ccb27d32d' // русская форма
+        : 'https://forms.yandex.ru/u/68e3ddcb90fa7b12d3fd65c0' // англоязычная форма (замени на свою ссылку)
+    }
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    {t('nav.becomeMentor')}
+  </a>
+</Button>
+
+<Button variant="default" size="sm" asChild>
+  <Link to="/apply">{t('nav.apply')}</Link>
+</Button>
 
         {/* Mobile Menu Button */}
         <Button
