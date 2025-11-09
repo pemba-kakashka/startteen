@@ -31,7 +31,6 @@ export function Header() {
           </div>
           <span className="text-xl font-bold text-gradient">StarTTeen</span>
         </Link>
-      </div>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6">
@@ -58,26 +57,17 @@ export function Header() {
             onClick={() => setLanguage(language === 'ru' ? 'en' : 'ru')}
           >
             <Globe className="w-4 h-4 mr-1" />
-           {language === 'ru' ? 'EN' : 'RU'}
-</Button>
-
-<Button variant="ghost" size="sm" asChild>
-  <a
-    href={
-      language === 'ru'
-        ? 'https://forms.yandex.ru/u/68b323e6f47e731ccb27d32d' 
-        : 'https://forms.yandex.ru/u/english-form-link' 
-    }
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    {t('nav.becomeMentor')}
-  </a>
-</Button>
-
-<Button variant="default" size="sm" asChild>
-  <Link to="/apply">{t('nav.apply')}</Link>
-</Button>
+            {language === 'ru' ? 'EN' : 'RU'}
+          </Button>
+          <Button variant="ghost" size="sm" asChild>
+            <a href="https://forms.yandex.ru/u/68b323e6f47e731ccb27d32d" target="_blank" rel="noopener noreferrer">
+              {t('nav.becomeMentor')}
+            </a>
+          </Button>
+          <Button variant="default" size="sm" asChild>
+            <Link to="/apply">{t('nav.apply')}</Link>
+          </Button>
+        </div>
 
         {/* Mobile Menu Button */}
         <Button
