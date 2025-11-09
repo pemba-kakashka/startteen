@@ -23,7 +23,7 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div>className="container flex h-16 items-center justify-between px-4"</div> 
+      <div className="container flex h-16 items-center justify-between px-4">
         {/* Logo */}
         <Link to="/" className="flex items-center space-x-2 transition-smooth hover:opacity-80">
           <div className="w-8 h-8 gradient-primary rounded-lg flex items-center justify-center">
@@ -31,6 +31,7 @@ export function Header() {
           </div>
           <span className="text-xl font-bold text-gradient">StarTTeen</span>
         </Link>
+      </div>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6">
