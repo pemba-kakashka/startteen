@@ -82,7 +82,7 @@ export default function Docs() {
           <div className="max-w-4xl mx-auto">
             <Alert className="border-accent/20 bg-accent/5">
               <AlertTriangle className="h-4 w-4 text-accent" />
-              <AlertDescription className="text-accent-foreground">
+              <AlertDescription className="text-[#65738a]">
                 <strong>{t('docs.importantNotice')}</strong> {t('docs.noticeText')}
               </AlertDescription>
             </Alert>

@@ -35,7 +35,7 @@ export default function Resources() {
       icon: Briefcase,
       title: 'Бизнес-планирование',
       description: 'Разработка стратегии, бизнес-модели и плана развития проекта',
-      features: ['Бизнес-модель Canvas', 'Финансовое планирование', 'Go-to-market стратегия']
+      features: ['Бизнес-модель', 'Финансовое планирование', 'Go-to-market стратегия']
     },
     {
       icon: DollarSign,

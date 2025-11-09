@@ -64,8 +64,8 @@ export function Header() {
   <a
     href={
       language === 'ru'
-        ? 'https://forms.yandex.ru/u/68b323e6f47e731ccb27d32d' // русская форма
-        : 'https://forms.yandex.ru/u/68e3ddcb90fa7b12d3fd65c0' // англоязычная форма (замени на свою ссылку)
+        ? 'https://forms.yandex.ru/u/68b323e6f47e731ccb27d32d' 
+        : 'https://forms.yandex.ru/u/english-form-link' 
     }
     target="_blank"
     rel="noopener noreferrer"

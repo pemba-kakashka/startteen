@@ -37,7 +37,7 @@ export function Footer() {
             </p>
             <div className="flex space-x-4">
               <a
-                href="mailto:info@starteen.ru"
+                href="mailto:infostartteen@gmail.com"
                 className="text-muted-foreground hover:text-foreground transition-smooth"
                 title="Email"
               >

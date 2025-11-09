@@ -190,7 +190,7 @@ export default function ApplicationElements() {
                         {question.tip && (
                           <Alert className="mt-4 border-primary/20 bg-primary/5">
                             <Target className="h-4 w-4 text-primary" />
-                            <AlertDescription className="text-primary-foreground">
+                            <AlertDescription className="text-[#65738a]">
                               <strong>{t('hero.title').includes('школьников') ? 'Совет:' : 'Tip:'}</strong> {question.tip}
                             </AlertDescription>
                           </Alert>
