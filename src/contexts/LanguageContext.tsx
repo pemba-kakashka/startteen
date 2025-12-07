@@ -79,7 +79,7 @@ const translations = {
     'footer.contact': 'Контакты',
     'footer.supportHours': 'Поддержка: пн-пт 10:00-18:00 МСК',
     'footer.email': 'Email: support@startteen.ru',
-    'footer.telegram': 'Telegram: @startteen_support',
+    'footer.telegram': 'Telegram: @startteen',
     'footer.copyright': '© 2025 StarTTeen. Все права защищены.',
     
     // Pages
@@ -322,7 +322,7 @@ const translations = {
     'footer.contact': 'Contact',
     'footer.supportHours': 'Support: Mon-Fri 10:00-18:00 MSK',
     'footer.email': 'Email: support@startteen.ru',
-    'footer.telegram': 'Telegram: @startteen_support',
+    'footer.telegram': 'Telegram: @startteen',
     'footer.copyright': '© 2025 StarTTeen. All rights reserved.',
     
     // Pages

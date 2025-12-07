@@ -104,7 +104,7 @@ export default function Contact() {
                       </div>
                       <div>
                         <h3 className="font-semibold mb-1">{t('contact.telegram')}</h3>
-                        <p className="text-muted-foreground mb-2">@startteen_support</p>
+                        <p className="text-muted-foreground mb-2">@startteen</p>
                         <p className="text-sm text-muted-foreground">{t('contact.telegramDesc')}</p>
                       </div>
                     </div>
