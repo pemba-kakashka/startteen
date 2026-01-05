@@ -97,6 +97,7 @@ export default function Resources() {
   // Mock partners data
   const partners = [
     { name: 'Летово', category: t('hero.title').includes('школьников') ? 'Образовательный партнер' : 'Educational Partner' },
+  ];
 
   return (
     <Layout>
