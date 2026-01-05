@@ -96,13 +96,7 @@ export default function Resources() {
 
   // Mock partners data
   const partners = [
-    { name: 'Сколково', category: t('hero.title').includes('школьников') ? 'Инновационный центр' : 'Innovation Center' },
-    { name: 'ФРИИ', category: t('hero.title').includes('школьников') ? 'Фонд развития интернет-инициатив' : 'Internet Initiatives Development Fund' },
     { name: 'Летово', category: t('hero.title').includes('школьников') ? 'Образовательный партнер' : 'Educational Partner' },
-    { name: 'Яндекс.Практикум', category: t('hero.title').includes('школьников') ? 'Образовательная платформа' : 'Educational Platform' },
-    { name: 'VK Education', category: t('hero.title').includes('школьников') ? 'IT-образование' : 'IT Education' },
-    { name: 'GenerationS', category: t('hero.title').includes('школьников') ? 'Акселератор' : 'Accelerator' },
-  ];
 
   return (
     <Layout>
