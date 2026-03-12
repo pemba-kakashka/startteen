@@ -13,6 +13,7 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 const translations = {
   ru: {
     // Navigation
+    'nav.landing': 'Лендинг',
     'nav.about': 'О проекте',
     'nav.mentors': 'Менторы',
     'nav.success': 'Истории успеха',
