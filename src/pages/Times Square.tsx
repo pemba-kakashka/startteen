@@ -20,7 +20,7 @@ export default function TimesSquare() {
     setMeta("og:title", "StarTTeen — Teen Founders Start Here", "property");
     setMeta("og:description", "International startup academy for teenagers. Build real projects with mentor support.", "property");
     setMeta("og:type", "website", "property");
-    setMeta("og:url", "https://startteen.lovable.app/ts", "property");
+    setMeta("og:url", "https://startteen.vercel.app/ts", "property");
     setMeta("twitter:card", "summary_large_image");
     setMeta("twitter:title", "StarTTeen — Teen Founders Start Here");
     setMeta("twitter:description", "International startup academy for teenagers. Featured in Times Square, NYC.");
