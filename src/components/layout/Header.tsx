@@ -10,6 +10,7 @@ export function Header() {
   const { language, setLanguage, t } = useLanguage();
 
   const navigation = [
+    { name: t('nav.landing'), href: '/ts' },
     { name: t('nav.about'), href: '/about' },
     { name: t('nav.mentors'), href: '/mentors' },
     { name: t('nav.success'), href: '/success' },
