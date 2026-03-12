@@ -17,8 +17,8 @@ const mentors = [
     bio: 'Опыт запуска продуктов с нуля. Помогаю с MVP и продуктовой стратегией.',
     expertise: ['Product Management', 'MVP', 'UX/UI'],
     avatar: '/placeholder-avatar-1.jpg',
-    linkedin: 'https://linkedin.com/in/anna-smirnova',
-    telegram: '@anna_pm',
+    linkedin: 'example.link',
+    telegram: '@startteen',
   },
   // Добавить больше менторов по мере развития проекта
 ];
