@@ -39,7 +39,7 @@ export default function TimesSquare() {
         <img
           src="/startteen-logo.png"
           alt="StarTTeen"
-          className="w-72 sm:w-96 md:w-[28rem] lg:w-[32rem] mb-12"
+          className="w-[24rem] sm:w-[32rem] md:w-[40rem] lg:w-[48rem] mb-12 object-contain"
         />
 
         {/* Subheadline */}
