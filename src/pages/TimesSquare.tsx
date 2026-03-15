@@ -37,7 +37,7 @@ export default function TimesSquare() {
 
         {/* Logo */}
         <img
-          src="https://startteen.vercel.app/noviylogokrutoi.png"
+          src="/startteen-logo.png"
           alt="StarTTeen"
           className="w-72 sm:w-96 md:w-[28rem] lg:w-[32rem] mb-12"
         />
