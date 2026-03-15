@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
-import  starTTeenLogo  from 'public/noviylogokrutoi.png';
 
 const values = [
   { title: "Build your first real project", desc: "Go from idea to a working product with step-by-step guidance." },
@@ -38,7 +37,7 @@ export default function TimesSquare() {
 
         {/* Logo */}
         <img
-          src={starTTeenLogo}
+          src="public/noviylogokrutoi.png"
           alt="StarTTeen"
           className="w-72 sm:w-96 md:w-[28rem] lg:w-[32rem] mb-12"
         />
