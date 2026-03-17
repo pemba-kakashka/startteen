@@ -93,7 +93,7 @@ export default function TimesSquare() {
               <img
                 src="/startteen-logo.png"
                 alt="StarTTeen"
-                className="relative z-10 w-[26rem] object-contain sm:w-[34rem] md:w-[44rem] lg:w-[54rem]"
+                className="relative z-10 w-[36rem] object-contain sm:w-[44rem] md:w-[54rem] lg:w-[64rem]"
               />
             </div>
 
