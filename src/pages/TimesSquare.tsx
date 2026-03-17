@@ -88,14 +88,11 @@ export default function TimesSquare() {
               Seen us in Times Square?
             </h1>
 
-            <div className="relative mt-8 mb-6 flex items-center justify-center">
-              <div className="absolute h-[220px] w-[560px] rounded-full bg-[#8B6AF3]/18 blur-3xl md:h-[260px] md:w-[720px]" />
-              <img
-                src="/startteen-logo.png"
-                alt="StarTTeen"
-                className="relative z-10 w-[36rem] object-contain sm:w-[44rem] md:w-[54rem] lg:w-[64rem] md:-translate-x-6 lg:-translate-x-10"
-              />
-            </div>
+            <img
+  src="/noviylogokrutoi.png"
+  alt="StarTTeen"
+  className="relative z-10 w-[36rem] object-contain sm:w-[44rem] md:w-[54rem] lg:w-[64rem] md:-translate-x-6 lg:-translate-x-10"
+/>
 
             <p className="mb-3 text-xl font-semibold text-[#0F172A] md:text-2xl">
               Teen founders start here
