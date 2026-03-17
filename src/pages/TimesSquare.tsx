@@ -105,12 +105,14 @@ export default function TimesSquare() {
               Turn ideas into real projects with mentor support.
             </p>
 
-            <Link
-              to="/apply"
-              className="inline-flex items-center justify-center rounded-full bg-[#7E5BEF] px-10 py-4 text-base font-semibold text-white shadow-[0_14px_35px_rgba(126,91,239,0.28)] transition-all duration-200 hover:scale-[1.02] hover:bg-[#6D49E2] hover:shadow-[0_18px_42px_rgba(126,91,239,0.34)]"
-            >
-              Join the waitlist
-            </Link>
+            <a
+  href="https://forms.gle/VGd2LsMhaq5zrWwf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center justify-center rounded-full bg-[#7E5BEF] px-10 py-4 text-base font-semibold text-white shadow-[0_14px_35px_rgba(126,91,239,0.28)] transition-all duration-200 hover:scale-[1.02] hover:bg-[#6D49E2] hover:shadow-[0_18px_42px_rgba(126,91,239,0.34)]"
+>
+  Join the waitlist
+</a>
           </div>
         </section>
 
