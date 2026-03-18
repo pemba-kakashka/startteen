@@ -61,19 +61,22 @@ export default function TimesSquare() {
     <div className="relative min-h-screen overflow-x-hidden bg-[#FCFCFE] font-sans text-[#0F172A]">
       {/* background */}
       <div className="pointer-events-none absolute inset-0 overflow-hidden">
-        <div className="absolute left-1/2 top-24 h-[280px] w-[720px] -translate-x-1/2 rounded-full bg-[#8B6AF3]/12 blur-3xl" />
-        <div className="absolute left-[18%] top-[420px] h-[180px] w-[180px] rounded-full bg-[#C8B8FF]/18 blur-3xl" />
-        <div className="absolute right-[16%] top-[460px] h-[220px] w-[220px] rounded-full bg-[#B79CFF]/14 blur-3xl" />
+        <div className="absolute left-1/2 top-20 h-[360px] w-[980px] -translate-x-1/2 rounded-full bg-[#8B6AF3]/14 blur-3xl" />
+        <div className="absolute left-[12%] top-[360px] h-[260px] w-[260px] rounded-full bg-[#C8B8FF]/18 blur-3xl" />
+        <div className="absolute right-[10%] top-[400px] h-[300px] w-[300px] rounded-full bg-[#B79CFF]/16 blur-3xl" />
 
         {/* orbit / trajectory */}
-        <div className="absolute left-1/2 top-[180px] h-[340px] w-[900px] -translate-x-1/2 rounded-full border border-[#8B6AF3]/10" />
-        <div className="absolute left-1/2 top-[210px] h-[280px] w-[760px] -translate-x-1/2 rounded-full border border-[#8B6AF3]/8" />
+        <div className="absolute left-1/2 top-[120px] h-[520px] w-[1320px] -translate-x-1/2 rounded-full border border-[#8B6AF3]/12" />
+        <div className="absolute left-1/2 top-[165px] h-[430px] w-[1120px] -translate-x-1/2 rounded-full border border-[#8B6AF3]/10" />
+        <div className="absolute left-1/2 top-[215px] h-[340px] w-[920px] -translate-x-1/2 rounded-full border border-[#8B6AF3]/8" />
 
         {/* small signal points */}
-        <div className="absolute left-[22%] top-[220px] h-2.5 w-2.5 rounded-full bg-[#8B6AF3]/50" />
-        <div className="absolute right-[24%] top-[250px] h-2 w-2 rounded-full bg-[#8B6AF3]/35" />
-        <div className="absolute left-[28%] top-[340px] h-1.5 w-1.5 rounded-full bg-[#7E5BEF]/40" />
-        <div className="absolute right-[30%] top-[360px] h-1.5 w-1.5 rounded-full bg-[#7E5BEF]/40" />
+        <div className="absolute left-[16%] top-[235px] h-3 w-3 rounded-full bg-[#8B6AF3]/55" />
+        <div className="absolute right-[14%] top-[270px] h-2.5 w-2.5 rounded-full bg-[#8B6AF3]/40" />
+        <div className="absolute left-[23%] top-[405px] h-2 w-2 rounded-full bg-[#7E5BEF]/45" />
+        <div className="absolute right-[20%] top-[430px] h-2 w-2 rounded-full bg-[#7E5BEF]/42" />
+        <div className="absolute left-[31%] top-[520px] h-1.5 w-1.5 rounded-full bg-[#8B6AF3]/36" />
+        <div className="absolute right-[29%] top-[505px] h-1.5 w-1.5 rounded-full bg-[#8B6AF3]/34" />
       </div>
 
       <main className="relative z-10">
