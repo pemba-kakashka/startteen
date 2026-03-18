@@ -94,13 +94,15 @@ export default function TimesSquare() {
   className="relative z-10 w-[36rem] object-contain sm:w-[44rem] md:w-[54rem] lg:w-[64rem] md:-translate-x-6 lg:-translate-x-10"
 />
 
-            <p className="mb-3 text-xl font-semibold text-[#0F172A] md:text-2xl">
-              Teen founders start here
-            </p>
+            <div className="mt-6 flex flex-col items-center">
+  <p className="mb-3 text-xl font-semibold text-[#0F172A] md:text-2xl">
+    Teen founders start here
+  </p>
 
-            <p className="mb-8 max-w-2xl text-base leading-relaxed text-[#51627E] md:text-lg">
-              Turn ideas into real projects with mentor support.
-            </p>
+  <p className="mb-8 max-w-2xl text-base leading-relaxed text-[#51627E] md:text-lg">
+    Turn ideas into real projects with mentor support.
+  </p>
+</div>
 
             <a
   href="https://docs.google.com/forms/d/e/1FAIpQLScFWbhxujB0UG4LIMKmLPEczNhRRLoE9-YKdYNaNMNbu6iRRw/viewform?usp=dialog"
